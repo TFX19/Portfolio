@@ -18,7 +18,7 @@ export default function Home() {
             alt="programmer"
           />
           <div className="p-10">
-            <h1 className="text-5xl font-bold"><Typewriter text="Hi I'm Tiago! | Web developer" /></h1>
+            <h1 className="text-5xl font-bold"><Typewriter text="Hi I&apos;m Tiago! | Web developer" /></h1>
             <p className="py-6">
             Web enthusiast on a mission to craft beautiful designs and explore 🚀.<br></br>
             Forever curious, always learning, and undeniably a fan of orange cats 🐱!
@@ -35,7 +35,7 @@ export default function Home() {
               imageUrl="https://i.imgur.com/g4VrSag.jpeg"
               title="Covilhã Urban Art"
               subtitle="Full Stack Developer (Internship project)"
-              description="The project aims to develop a web-based solution for browsing and managing urban art in Covilhã, including a website and a BackOffice. The platform will display georeferenced artworks on a map, allowing users to get directions to each piece. QR codes will be placed near the artworks, linking to pages with detailed information. The design will align with WOOLFEST's identity, and a biography of each artist, referencing their works in the city, will be included. Data management will be centralized through an API and BackOffice system."
+              description="The project aims to develop a web-based solution for browsing and managing urban art in Covilhã, including a website and a BackOffice. The platform will display georeferenced artworks on a map, allowing users to get directions to each piece. QR codes will be placed near the artworks, linking to pages with detailed information. The design will align with WOOLFEST&apos;s identity, and a biography of each artist, referencing their works in the city, will be included. Data management will be centralized through an API and BackOffice system."
               buttonLink="/work/1"
             />
           </MotionWrapper>
