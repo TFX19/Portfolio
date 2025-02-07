@@ -13,8 +13,8 @@ export default function Home() {
           <Image
             src="https://i.imgur.com/Iv5KVf0.gif"
             className="max-w-sm rounded-lg shadow-2xl"
-            width={500}
-            height={500}
+            width={325}
+            height={325}
             alt="programmer"
           />
           <div className="p-10">
