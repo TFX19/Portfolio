@@ -8,20 +8,21 @@ export const metadata = {
 
 export default function About() {
   return (
-    <div className=" bg-base-200 min-h-screen">
-      <div className="pt-10 p-5 items-center flex-col lg:flex-row">
+    <div className="bg-base-200 min-h-screen">
+      <div className="container mx-auto pt-10 p-5 flex flex-col lg:flex-row items-center justify-center">
         <Image
-          className="place-self-center shadow-2xl"
+          className="shadow-2xl rounded"
           width={1317}
           height={500}
           src="https://i.imgur.com/jKDBeMk.jpeg"
-          alt="me"
+          alt="Tiago Borges"
         />
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-10">
-        <div className="p-10 space-y-4">
-          <h2 className="text-lg font-bold">Technologies</h2>
-          <ul className="list-disc pl-5">
+
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 p-10">
+        <section className="space-y-4 text-center">
+          <h2 className="text-lg font-bold text-center">Technologies</h2>
+          <ul className="pl-5 text-center">
             <li>HTML5</li>
             <li>CSS3</li>
             <li>JavaScript</li>
@@ -35,22 +36,56 @@ export default function About() {
             <li>SQL (PostgreSQL, MySQL)</li>
             <li>UX/UI Design</li>
             <li>FIGMA</li>
+            <li>Miro (Brainstorming)</li>
           </ul>
-        </div>
+        </section>
 
-        <div className="p-10 col-span-1 lg:col-span-1">
-          <p className="text-base">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
+        <section>
+          <h2 className="stat-title font-bold mt-3">My Journey into Tech</h2>
+          <p className="mt-3 text-base">
+            It started when{" "}
+            <strong>
+              I was 13 years old and began creating multimedia content for the
+              web,
+            </strong>{" "}
+            exploring image and video editing. At first, I saw it as a
+            hobby—editing for friends just for fun. Eventually, my interest
+            grew, and I built my first website using Dreamweaver, as it was part
+            of the Adobe suite. I enjoyed exploring this creative field. Over
+            time, I realized that web development was much more than I had
+            imagined, which{" "}
+            <strong>
+              led me to enroll in a professional multimedia course
+            </strong>{" "}
+            where I truly discovered the potential of the web and everything it
+            had to offer.
           </p>
-          <br></br>
-          <p>resume available upon request</p>
-          <Link href="mailto:tiagoc.borges02@gmail.com" className="mt-5 btn btn-outline">Contact</Link>
-        </div>
+
+          <h2 className="stat-title font-bold mt-5">Right Now in My Journey</h2>
+          <p className="mt-3">
+            I recently{" "}
+            <strong>
+              completed my degree in Multimedia Technologies and Design
+            </strong>
+            , where I learned various work methodologies and explored different
+            tools and technologies. This experience helped me develop a
+            structured analytical process and critical thinking skills, which
+            are essential for problem-solving and making informed technical
+            decisions. Additionally, working on group projects allowed me to
+            enhance my teamwork, communication, and adaptability, as
+            collaborating with colleagues from different backgrounds taught me
+            how to share ideas, manage feedback, and work towards common goals
+            efficiently.
+          </p>
+
+          <p className="mt-5 text-center font-semibold">CV available upon request</p>
+          <Link
+            href="mailto:tiagoc.borges02@gmail.com"
+            className="mt-5 btn w-full btn-outline"
+          >
+            Contact
+          </Link>
+        </section>
       </div>
     </div>
   );
