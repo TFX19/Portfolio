@@ -57,8 +57,7 @@ export default function About() {
             <strong>
               led me to enroll in a professional multimedia course
             </strong>{" "}
-            where I truly discovered the potential of the web and everything it
-            had to offer.
+            where I truly discovered the potential of the web.
           </p>
 
           <h2 className="stat-title font-bold mt-5">Right Now in My Journey</h2>

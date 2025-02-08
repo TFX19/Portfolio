@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "@/app/components/ui/Caroussel";
-import { Globe, Code, Languages } from "lucide-react";
+import { Globe, Code, Languages, Info } from "lucide-react";
 import Link from "next/link";
 import ShowList from "@/app/components/client/ShowList";
 
@@ -9,6 +9,7 @@ interface ProjectPageProps {
   description: string;
   descriptiontf: string;
   descriptionpe:string;
+  moreInfo?: string;
   images: {
     imageUrl1: string;
     title1: string;
@@ -29,6 +30,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
   description,
   descriptiontf,
   descriptionpe,
+  moreInfo,
   images,
   link,
   technologies,
@@ -67,7 +69,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
             ) : (
               <span className="text-base text-red-500">Offline</span>
             )}
-          </div>
+          </div> 
           <div className="flex items-center mt-5">
             <Code className="mr-2" />
             <Link className="underline underline-offset-4 text-indigo-500" href={code} target="_blank" rel="noopener noreferrer">
@@ -77,6 +79,14 @@ const ProjectPage: React.FC<ProjectPageProps> = ({
           <div className="flex items-center mt-5">
             <Languages className="mr-2" />
            <span>Portuguese</span>
+          </div>
+          <div className="flex items-center mt-5">
+          {moreInfo && (
+              <div className="flex items-center">
+                <Info className="mr-2" />
+                <Link href={moreInfo} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 text-indigo-500"><span>More about</span></Link>
+              </div>
+            )}
           </div>
         </div>
       </div>

@@ -38,7 +38,8 @@ export default function work1() {
       The app is built with React Native and TypeScript, ensuring scalability and maintainability. Expo simplifies setup and development, while StyleSheet provides a structured design. Expo Router manages navigation, and the app interacts with a Node.js API provided by the event to fetch and manage data in real time. Additional features include QR code scanning for quick access to benefits and map rendering to help users locate partner establishments.
       "
       descriptionpe="Implementing user authentication would enhance the app by enabling personalized profiles and secure access. Currently, the app uses a static location near the available establishments since the provided API only includes places from a specific area. A future improvement would be implementing dynamic geolocation, allowing users to see their real-time position and receive more relevant suggestions based on their actual location."
-    />
+      moreInfo="https://www.rocketseat.com.br/"
+   />
     </>
   );
 }

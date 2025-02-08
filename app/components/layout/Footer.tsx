@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Linkedin } from "lucide-react";
-import { Github } from "lucide-react";
+import { Linkedin,  Github, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -17,11 +16,15 @@ const Footer = () => {
         </aside>
         <aside className="place-self-center"><p>made with 💜 by Tiago </p></aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-center place-self-center">
+          <span>Get in touch  --- &gt; </span>
           <a href="https://github.com/TFX19" target="_blank" rel="noopener noreferrer">
-            <Github />
+            <Github className="hover:scale-110" />
           </a>
           <a href="https://www.linkedin.com/in/tiago-borges-35a914231/" target="_blank" rel="noopener noreferrer">
-            <Linkedin />
+            <Linkedin className="hover:scale-110" />
+          </a>
+          <a href="mailto:tiagoc.borges02@gmail.com" target="_blank" rel="noopener noreferrer">
+            <Mail className="hover:scale-110" />
           </a>
         </nav>
       </footer>

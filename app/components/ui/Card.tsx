@@ -28,7 +28,7 @@ const Card: React.FC<CardProps> = ({ imageUrl, title, subtitle, description, but
         <h3 className="font-semibold">{subtitle}</h3>
         <p className="mt-5 w-80">{truncatedDescription}</p>
         <div className="card-actions justify-end mt-5">
-            <Link className="btn btn-primary" href={buttonLink}>Read more</Link>
+            <Link className="btn btn-primary" href={buttonLink}>View Project</Link>
         </div>
       </div>
     </div>
