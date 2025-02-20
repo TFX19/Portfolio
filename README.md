@@ -50,7 +50,7 @@ portfolio/
 
 ## 📬 Contact
 
-If you want to learn more about the project or discuss opportunities, you can contact me at: 📧 [tiagoc.borges02@email.com](mailto\:tiagoc.borges02@gmail.com)
+If you want to learn more about the project or discuss opportunities, you can contact me at: 📧 [tiagoc.borges02@gmail.com](mailto\:tiagoc.borges02@gmail.com)
 
 ---
 
