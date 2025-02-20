@@ -54,6 +54,6 @@ If you want to learn more about the project or discuss opportunities, you can co
 
 ---
 
-Made with 💙 by [Your Name](https://github.com/TFX19) 🚀
+Made with 💙 by [Tiago](https://github.com/TFX19) 🚀
 
 
