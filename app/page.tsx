@@ -18,7 +18,7 @@ export default function Home() {
             alt="programmer"
           />
           <div className="p-10">
-            <h1 className="text-5xl font-bold"><Typewriter text="Hi I&apos;m Tiago! | Web developer" /></h1>
+            <h1 className="text-5xl font-bold"><Typewriter text="Hi I&apos;m Tiago! | Frontend developer" /></h1>
             <p className="py-6">
             Web enthusiast on a mission to craft beautiful designs and explore 🚀.<br></br>
             Forever curious, always learning, and undeniably a fan of orange cats 🐱!
