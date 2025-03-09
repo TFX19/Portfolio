@@ -7,9 +7,9 @@ const themes = ["light", "dark", "dracula", "cupcake"];
 export default function ThemeSwitcher() {
   const [theme, setTheme] = useState(() => {
     if (typeof window !== "undefined") {
-      return localStorage.getItem("theme") || "light";
+      return localStorage.getItem("theme") || "cupcake";
     }
-    return "light";
+    return "cupcake";
   });
 
   useEffect(() => {

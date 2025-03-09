@@ -2,11 +2,17 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ['i.imgur.com','imgur.com'], 
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.imgur.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'imgur.com',
+      },
+    ],
   },
-  // eslint: {
-  //   ignoreDuringBuilds: true,
-  // },
 };
 
 export default nextConfig;

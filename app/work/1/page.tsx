@@ -32,7 +32,9 @@ export default function work1() {
         "React-google-maps/api",
         "Sequelize",
         "Express",
-        "Nodemon"
+        "Nodemon",
+        "Axios",
+        "Supabase"
       ]}
       link="https://arte-urbana-web.vercel.app/"
       code="https://github.com/TFX19/ArteUrbanaWeb"
