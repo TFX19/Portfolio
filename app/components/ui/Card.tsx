@@ -28,7 +28,7 @@ const Card: React.FC<CardProps> = ({ imageUrl, title, subtitle, description, but
           Project: <b>{title}</b>
         </h1>
         <h3 className="font-semibold">{subtitle}</h3>
-        <p className="mt-3 w-96">{truncatedDescription}</p>
+        <p className="mt-3 w-auto lg:w-96">{truncatedDescription}</p>
 
         <div className="flex items-center justify-between mt-3 gap-2">
           <div className="flex flex-wrap gap-1">
