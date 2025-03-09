@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import MotionWrapper from "../components/client/MotionWrapper";
 export const metadata = {
   title: "About - Tiago Borges"
 };
