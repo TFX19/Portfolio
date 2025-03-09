@@ -37,6 +37,7 @@ export default function Home() {
               subtitle="Full Stack Developer (Internship project)"
               description="The project aims to develop a web-based solution for browsing and managing urban art in Covilhã, including a website and a BackOffice. The platform will display georeferenced artworks on a map, allowing users to get directions to each piece. QR codes will be placed near the artworks, linking to pages with detailed information. The design will align with WOOLFEST&apos;s identity, and a biography of each artist, referencing their works in the city, will be included. Data management will be centralized through an API and BackOffice system."
               buttonLink="/work/1"
+              badges={["React.js", "Vite", "BootstrapCSS"]}
             />
           </MotionWrapper>
           <MotionWrapper>
@@ -46,6 +47,7 @@ export default function Home() {
               subtitle="Full Stack Developer (School project)"
               description="This project aims to develop a platform that facilitates tourist visits, promotes communication between visitors and local agents, and encourages sustainability."
               buttonLink="/work/2"
+              badges={["React.js", "Vite", "BootstrapCSS"]}
             />
           </MotionWrapper>
           <MotionWrapper>
@@ -55,6 +57,7 @@ export default function Home() {
               subtitle="Front End (Rocketseat project)"
               description="The project is a mobile application for a benefits club with coupons to use at nearby establishments. This is a project from the NLW Pocket Mobile event, one of the content offerings available to Rocketseat students."
               buttonLink="/work/3"
+              badges={["ReactNative", "TypeScript", "Expo"]}
             />
           </MotionWrapper>
           <div className="p-5 mb-5 text-center">

@@ -26,9 +26,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="cupcake">
-       <head>
-        <link rel="manifest" href="/site.webmanifest" />
-      </head>
       <body className={montserrat.className} >
         <Navbar />
         {children}

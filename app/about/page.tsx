@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import MotionWrapper from "../components/client/MotionWrapper";
 export const metadata = {
-  title: "About - Tiago Borges",
-  description: "...",
+  title: "About - Tiago Borges"
 };
 
 export default function About() {
@@ -18,7 +17,6 @@ export default function About() {
           alt="Tiago Borges"
         />
       </div>
-
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 p-10">
         <section className="space-y-4 text-center">
           <h2 className="text-lg font-bold text-center">Technologies</h2>
@@ -27,9 +25,9 @@ export default function About() {
             <li>CSS3</li>
             <li>JavaScript</li>
             <li>TypeScript</li>
-            <li>React</li>
+            <li>React.js</li>
             <li>ReactNative</li>
-            <li>NextJS</li>
+            <li>Next.js</li>
             <li>Vite</li>
             <li>TailwindCSS</li>
             <li>BootstrapCSS</li>
@@ -39,7 +37,6 @@ export default function About() {
             <li>Miro (Brainstorming)</li>
           </ul>
         </section>
-
         <section>
           <h2 className="stat-title font-bold mt-3">My Journey into Tech</h2>
           <p className="mt-3 text-base">
