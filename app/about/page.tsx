@@ -1,12 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
+import ScrollAnimation from "../components/client/OnScrollAnim";
+
 export const metadata = {
   title: "About - Tiago Borges"
 };
 
 export default function About() {
   return (
+    
     <div className="bg-base-200 min-h-screen">
+       <ScrollAnimation>  
       <div className="container mx-auto pt-10 p-5 flex flex-col lg:flex-row items-center justify-center">
         <Image
           className="shadow-2xl rounded"
@@ -16,7 +20,10 @@ export default function About() {
           alt="Tiago Borges"
         />
       </div>
+      </ScrollAnimation>
+    
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 p-10">
+      <ScrollAnimation> 
         <section className="space-y-4 text-center">
           <h2 className="text-lg font-bold text-center">Technologies</h2>
           <ul className="pl-5 text-center">
@@ -36,6 +43,8 @@ export default function About() {
             <li>Miro (Brainstorming)</li>
           </ul>
         </section>
+        </ScrollAnimation>
+        <ScrollAnimation> 
         <section>
           <h2 className="stat-title font-bold mt-3">My Journey into Tech</h2>
           <p className="mt-3 text-base">
@@ -81,7 +90,9 @@ export default function About() {
             Contact
           </Link>
         </section>
+        </ScrollAnimation>
       </div>
     </div>
+    
   );
 }

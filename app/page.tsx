@@ -4,6 +4,7 @@ import Card from "@/app/components/ui/Card";
 import MotionWrapper from "./components/client/MotionWrapper";
 import Typewriter from "./components/client/TypeWritter";
 import ButtonToSection from "./components/client/ButtonToSection";
+import ScrollAnimation from "./components/client/OnScrollAnim";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
 
       <div id="target-section" className=" bg-indigo-400 content-center min-h-screen flex items-center justify-center">
         <div className=" mt-10 block">
+        <ScrollAnimation> 
           <MotionWrapper>
             <Card
               imageUrl="https://i.imgur.com/g4VrSag.jpeg"
@@ -40,6 +42,8 @@ export default function Home() {
               badges={["React.js", "Vite", "BootstrapCSS"]}
             />
           </MotionWrapper>
+          </ScrollAnimation> 
+          <ScrollAnimation> 
           <MotionWrapper>
             <Card
               imageUrl="https://i.imgur.com/MGYtBrr.jpeg"
@@ -50,6 +54,8 @@ export default function Home() {
               badges={["React.js", "Vite", "BootstrapCSS"]}
             />
           </MotionWrapper>
+          </ScrollAnimation> 
+          <ScrollAnimation> 
           <MotionWrapper>
             <Card
               imageUrl="https://i.imgur.com/JzHORU5.jpeg"
@@ -60,6 +66,7 @@ export default function Home() {
               badges={["ReactNative", "TypeScript", "Expo"]}
             />
           </MotionWrapper>
+          </ScrollAnimation> 
           <div className="p-5 mb-5 text-center">
             <p>
               Checkout my &nbsp;
@@ -75,6 +82,7 @@ export default function Home() {
             </p>
           </div>
         </div>
+    
       </div>
     </>
   );
