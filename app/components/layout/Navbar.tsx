@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import ThemeSwitcher from "../client/ThemeSwitcher";
 const Navbar = () => {
   return (
@@ -36,7 +37,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link className="btn btn-ghost text-xl" href="/"><img src="/svg/TB.svg" alt="logo" width={27} height={27} /></Link>
+          <Link className="btn btn-ghost text-xl" href="/"><Image src="/svg/TB.svg" alt="logo" width={27} height={27} /></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
