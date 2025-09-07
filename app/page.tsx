@@ -17,6 +17,7 @@ export default function Home() {
             width={325}
             height={325}
             alt="programmer"
+            unoptimized={false}
           />
           <div className="p-10">
             <h1 className="text-5xl font-bold"><Typewriter text="Hi I&apos;m Tiago! | Frontend developer" /></h1>
